@@ -103,7 +103,7 @@ def load_data_for_worker(base_samples, batch_size, class_cond):
 def create_argparser():
     defaults = dict(
         clip_denoised=True,
-        num_samples=10000,
+        num_samples=1000,
         batch_size=16,
         use_ddim=False,
         base_samples="",
